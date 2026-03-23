@@ -6,6 +6,6 @@ public class ChangeName {
     }
 
     public static void changeName(String name) {
-        name = "Rahul Rana";
+        name = "Rahul Rana";   //  the value of name is changed but it will not reflect in main method because String is immutable and we are creating a new string object here not changing the original string object
     }
 }
